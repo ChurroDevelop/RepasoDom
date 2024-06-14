@@ -10,7 +10,7 @@
   --padding: 8px;
   --margin: 10px;
   --border-radius: 8px;
-  --transtition: 1s;
+  --transtition: 0.5s;
   --max-w: 1400px;
 }
 ::selection{
@@ -61,25 +61,24 @@ p::first-letter{
   color: var(--Starship);
   font-weight: 700;
 }
-
+/* Lista ul */
 ul{
   list-style: none;
 }
-
+/* li que tengan la clase item */
 ul.list > li.item{
   cursor: pointer;
 }
-
+/* Capture las a de li con la clase item */
 li.item:hover > a{
   color: var(--Mineshaft);
 }
-
+/* Container */
 .container{
   max-width: var(--max-w);
   margin: 0 auto;
   padding: var(--padding);
 }
-
 /* Componente de la card */
 .card{
   width: 450px;
@@ -103,7 +102,6 @@ li.item:hover > a{
   padding: var(--padding);
 }
 /* Termina las cards */
-
 /* Componente del boton */
 .button{
   background: var(--Starship);
