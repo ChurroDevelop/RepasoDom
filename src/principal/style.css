@@ -40,6 +40,12 @@ header{
 section{
   padding: var(--padding);
 }
+.bg-gray{
+  background: var(--white);
+}
+.color-black{
+  color: var(--Mineshaft);
+}
 /* Etiquetas ancla */
 a{
   color: var(--husk);
